@@ -1,0 +1,26 @@
+.v52fmbx_tbmax {
+	padding:0 0 100px;
+}
+.v52fmbx_submit {
+	position: absolute;
+	z-index: 999;
+	left: 0px;
+	margin: 0;
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	background-image: url(../images/bg-50.png);
+	background-repeat: repeat;
+}
+.v52fmbx_submit .submit {
+    background: none repeat scroll 0 0 #3498db;
+    border: 0 none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    height: 34px;
+    line-height: 26px;
+    padding: 0 40px;
+}
+.v52fmbx_submit .submit:hover {
+    background: none repeat scroll 0 0 #5dade2;
+}

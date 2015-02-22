@@ -1,0 +1,15 @@
+.head {
+	width:100%;
+	overflow:hidden;
+	position:absolute;
+	position:fixed !important;
+	top:0;
+	left:0;
+	z-index:99;
+}
+.centercontent {
+	margin-top:159px;
+}
+.vernav2 {
+	position:fixed !important;
+}

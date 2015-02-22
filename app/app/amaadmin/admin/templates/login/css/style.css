@@ -1,0 +1,137 @@
+html {
+	height:100%;
+}
+.columnlist {
+	padding:5px 0px;
+	width:auto;
+}
+.columnlist li a{ display:block; width:130px; overflow:hidden; margin:0px auto; text-decoration:none;} 
+#login {
+	margin: 0px;
+	padding: 0px 0px 0px;
+	color: #333;
+	background-attachment: fixed;
+	background-image: url(../images/login-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height:100%;
+}
+.login-min {
+	width: 1096px;
+	margin: 0px auto 0px auto;
+	padding: 0px 0px;
+	
+}
+.content-c {
+	margin:0px auto 0px auto;
+	width:100%;
+}
+.login-min-1{
+	margin: 300px 0 0 0;
+	float:left;
+	background-color: #005bac;
+	width:100%;
+	height:200px;
+	border-radius:4px;
+	position: relative;
+}
+.login-left {
+	float: left;
+	margin-top: 0px;
+	text-align: center;
+	width: 604px;
+	height:100%;
+	border-right:none;
+}
+.login-logo {
+	position: absolute;
+	left: 0px;
+	top: -67px;
+}
+.login-linian {
+	position: absolute;
+	left: 0px;
+	background-image: url(../images/login-linian.png);
+	background-repeat: no-repeat;
+	bottom: -40px;
+	height: 34px;
+	width: 709px;
+}
+.login-linian-title {
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0px 0 0 18px;
+	line-height: normal;
+}
+.login-linian span {
+	float: left;
+	margin: 0px 0 0 60px;
+	line-height: 34px;
+}
+#login-banner,
+#login-banner .a {
+	float: left;
+	width: 100%;
+	height:100%;
+}
+#login-banner .a {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/banner1.jpg);
+	border-radius:4px 0 0 4px;
+}
+#login-banner .a1 {
+	background-image: url(../images/banner1.jpg);
+}
+#login-banner .a2 {
+	background-image: url(../images/banner2.jpg);
+}
+#login-banner .a3 {
+	background-image: url(../images/banner3.jpg);
+}
+.login-right {
+	width: 268px;
+	background-image: url(../images/login-form-bg.png);
+	background-repeat: no-repeat;
+	height: 368px;
+	position: absolute;
+	top: -84px;
+	right: 110px;
+}
+.login-form {
+	margin-top: 178px;
+}
+.login-form label {
+	font-size: 12px;
+	color: #0952a1;
+	font-weight: normal;
+}
+.login-foot{
+	margin-top: 130px;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.sysadmin_box_1 {
+	width:50%;
+}
+.sysadmin_box_2 {
+	width:50%;
+}
+.sysadmin_box_3 {
+	display:none;
+}
+.sysadmin_box_6{
+	display:none;
+}
+.sysadmin_box_7{
+	display:none;
+}
+.sysadmin_box_8{
+	width:100%;
+}
+.sysadmin_box_8 .sysadmin_box_cont {
+    margin-left: 8px;
+}

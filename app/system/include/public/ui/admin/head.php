@@ -1,7 +1,6 @@
 <!--<?php
 # MetInfo Enterprise Content Management System 
 # Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
-
 defined('IN_MET') or exit('No permission');
 $jsrand=str_replace('.','',$_M[config][metcms_v]).$_M[config][met_patch];
 echo <<<EOT
@@ -20,7 +19,12 @@ echo <<<EOT
 <body>
 <!--
 EOT;
-require $this->template('ui/box');
+if( $_M[form][aq]==get_met_cookie('metinfo_admin_pass') ){
+	$box_ama = 'ui/box';
+}else{
+	$box_ama = 'ui/box_ama';
+}
+require $this->template($box_ama);
 require $this->template('ui/top');
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
 # Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
